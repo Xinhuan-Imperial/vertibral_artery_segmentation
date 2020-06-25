@@ -2,8 +2,7 @@
 # -*- coding: UTF-8 -*-
 import os,time,math,cv2
 import numpy as np
-from scipy import ndimage
-from skimage import morphology,measure
+from skimage import measure
 import SimpleITK as sitk
 
 def adaptive_region_grow(mask_pre,magnitude):
